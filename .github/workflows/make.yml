@@ -6,6 +6,8 @@ on:
       - v* # push events versioned tags
     branches:
       - master
+      - eastl-tice-alpha
+  workflow_dispatch:
 
 env:
   AUTOTESTER_LIBS_GROUP: ${{github.workspace}}/toolchain/clibs.8xg
